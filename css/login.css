@@ -1,0 +1,45 @@
+button {
+    margin-top: .5%;
+    color: white; 
+    background-color: orange; 
+    padding: 1.5% 3% 1.5% 3%; 
+    border-radius: 25px; 
+    border-style: hidden;
+    font-size: 2.3vmin;
+  }
+
+  button:hover,
+  a:hover {
+    opacity: 0.8;
+  }
+
+  body {
+    background-image: url(https://news.virginia.edu/sites/default/files/Header_NA_Best_Reads.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .bg {
+    display:block;
+    background-color: rgba(0, 0, 0, .6);
+    width: 60%;
+    padding: 5% 12% 5% 12%;
+    margin: 5% 7% 5% 7%;
+    border-radius: 40px;
+    backdrop-filter: blur(4px);
+  }
+  .heading{
+    color: rgba(255, 255, 255, 0.7); 
+    font-weight: 300 ; 
+    padding-bottom: 5%; 
+    font-size: 6vmin;
+  }
+  .txt{
+    color: white; 
+    margin-top: 8%;
+    font-size: 2.5vmin;
+  }
+  .txt > a{
+    text-decoration: none; 
+    color: rgb(134, 170, 255);
+  }
