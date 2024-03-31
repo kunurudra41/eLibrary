@@ -96,7 +96,7 @@ opacity: 0.8;
 }
 
 .fadein {
-  animation: fadein 4s;
+  animation: fadein 2s;
 }
 
 @keyframes fadein {
@@ -169,6 +169,9 @@ p.cardtext {
 .card-imgtop {
   width: 10vmin;
   height: 10vmin;
+  aspect-ratio: 2/2;
+  object-fit: cover;
+  object-position: center;
 }
 
 .cardbotton:hover {

@@ -36,9 +36,12 @@ ul{
 width: 35vmax;
 }
 img{
-width: 22vmax;
-height: 19vmax;
-border-radius: 20px;
+width: 21vmax;
+height: 21vmax;
+border-radius: 40px;
+object-fit: cover;
+object-position: center;
+mix-blend-mode: screen;
 }
 .teambox{
     background-color: rgba(144, 202, 249, .04); 
