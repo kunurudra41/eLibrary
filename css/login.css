@@ -16,6 +16,7 @@ button {
   body {
     background-image: url(https://static.toiimg.com/photo/105046079.cms);
     background-size: cover;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
 
   .bg {
@@ -42,3 +43,4 @@ button {
     text-decoration: none; 
     color: rgb(134, 170, 255);
   }
+
