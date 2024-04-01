@@ -4,7 +4,7 @@
     font-weight: 300 ; 
     margin-bottom: 6%; 
     margin-top: 2%;
-    font-size: 5vmin;
+    font-size: 6vmin;
   }
 
 
@@ -16,24 +16,12 @@
 
   .bg {
     display:inline-block;
-    background-color: rgba(0, 0, 0, .6);
+    background-color: rgba(0, 0, 0, .5);
     width: 60%;
-    padding: 2% 5% 2% 5%;
-    margin: 5% 7% 5% 7%;
+    padding: 2% 6% 2% 6%;
+    margin: 3% 5% 3% 5%;
     border-radius: 40px;
-    backdrop-filter: blur(4px);
-  }
-  td{
-    color: white;
-    width: 19vmin;
-  }
-  td > input{
-    height: 5vmin;
-    width: 30vmin;
-    border-style: solid;
-    border-width: 3px;
-    border-color: rgb(244, 244, 244);
-    border-radius: 10px 10px 10px 10px;
+    backdrop-filter: blur(5px);
   }
   .txt{
     color: white; 
@@ -46,10 +34,10 @@
   }
   button {
     margin-top: .5%;
-    margin-bottom: .5%;
+    margin-bottom: 3%;
     color: white; 
     background-color: orange; 
-    padding: 1.5% 2.5% 1.5% 2.5%; 
+    padding: 1% 2% 1% 2%; 
     border-radius: 35px; 
     border-style: hidden;
     font-size: 2.3vmin;
