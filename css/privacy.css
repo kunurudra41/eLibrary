@@ -16,13 +16,6 @@ body{
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 20px;
   }
-  img{
-    width: 30vmin;
-    height: 30vmin;
-    margin-top: 35vh;
-    filter: invert();
-    mix-blend-mode: screen;
-  }
   
   /* The navigation menu links */
   .navitem ,.dropdown-btn  {
