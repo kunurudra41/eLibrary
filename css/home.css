@@ -156,6 +156,7 @@ p.cardtext {
 }
 
 .cards:hover {
+  transition: 0.3s;
   transform: scale(103%);
   box-shadow: 5px 6px 6px black;
 }
