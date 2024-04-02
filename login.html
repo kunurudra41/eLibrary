@@ -11,8 +11,14 @@
   <title>Sign in</title>
 </head>
 
-<body>
-  <div>
+<body><center>
+  <div class="tab">
+    <button class="tablinks" onclick="openCity(event, 'user')" id="defaultOpen">USER</button>
+    <button class="tablinks" onclick="openCity(event, 'admin')">ADMIN</button>
+  </div>
+</center>
+  
+  <div id="user" class="tabcontent">
     <center class="fadein">
       <div class="bg">
         <p class="heading">WELCOME TO
@@ -41,6 +47,36 @@
       </div>
     </center>
   </div>
+
+  <div id="admin" class="tabcontent">
+    <center class="fadein">
+      <div class="bg">
+        <p class="heading"><small>WELCOME TO ADMINISTRATIVE PANEL</small></p>
+        <form>
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="inputGroup-sizing-default">&nbsp;ID&nbsp;</span>
+            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="ELA code">
+          </div>
+          <div class="input-group mb-3">
+            <span class="input-group-text">&nbsp;@&nbsp;</span>
+            <div class="form-floating">
+              <input type="text" class="form-control" id="floatingInputGroup1" placeholder="Username">
+              <label for="floatingInputGroup1">Username</label>
+            </div>
+          </div>
+          <div class="input-group mb-3">
+            <span class="input-group-text">&#128273;</span>
+            <div class="form-floating">
+              <input type="text" class="form-control" id="floatingInputGroup1" placeholder="Username">
+              <label for="floatingInputGroup1">Password</label>
+            </div>
+          </div>
+          <button>LOG IN</button>
+        </form>
+      </div>
+    </center>
+  </div>
+  <script type="text/javascript" src="js/login.js"></script>
 </body>
 
 </html>
