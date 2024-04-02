@@ -31,7 +31,7 @@ button {
   .heading{
     color: rgba(255, 255, 255, 0.7); 
     font-weight: 300 ; 
-    padding-bottom: 5%; 
+    padding-bottom:10px; 
     font-size: 6vmin;
   }
   .txt{
