@@ -51,7 +51,7 @@ button {
     background-color: rgba(0, 0, 0, 0.203);
     padding: 7px;
     border-radius: 40px;
-    margin-top: 5vmin;
+    margin-top: 2vmin;
     backdrop-filter: blur(10px);
   }
   
