@@ -11,7 +11,8 @@
   <title>Sign in</title>
 </head>
 
-<body><center>
+<body>
+  <center>
   <div class="tab">
     <button class="tablinks" onclick="openCity(event, 'user')" id="defaultOpen">USER</button>
     <button class="tablinks" onclick="openCity(event, 'admin')">ADMIN</button>
@@ -27,14 +28,14 @@
           <div class="input-group mb-3">
             <span class="input-group-text">&nbsp;@&nbsp;</span>
             <div class="form-floating">
-              <input type="text" class="form-control" id="floatingInputGroup1" placeholder="Username">
+              <input type="text" class="form-control" id="user_username" placeholder="Username">
               <label for="floatingInputGroup1">Username</label>
             </div>
           </div>
           <div class="input-group mb-3">
             <span class="input-group-text">&#128273;</span>
             <div class="form-floating">
-              <input type="text" class="form-control" id="floatingInputGroup1" placeholder="Username">
+              <input type="text" class="form-control" id="user_password" placeholder="Username">
               <label for="floatingInputGroup1">Password</label>
             </div>
           </div>
@@ -42,7 +43,7 @@
             Don't have an account ?<a href="CreateAccount.html"><b> Join
                 Now..</b></a>
           </p>
-          <button>SIGN IN</button>
+          <button type="submit" onClick="user_login()">SIGN IN</button>
         </form>
       </div>
     </center>
@@ -54,24 +55,24 @@
         <p class="heading"><small>WELCOME TO ADMINISTRATIVE PANEL</small></p>
         <form>
           <div class="input-group mb-3">
-            <span class="input-group-text" id="inputGroup-sizing-default">&nbsp;ID&nbsp;</span>
-            <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="ELA code">
+            <span class="input-group-text">&nbsp;ID&nbsp;</span>
+            <input id="admincode" type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" placeholder="ELA code">
           </div>
           <div class="input-group mb-3">
             <span class="input-group-text">&nbsp;@&nbsp;</span>
             <div class="form-floating">
-              <input type="text" class="form-control" id="floatingInputGroup1" placeholder="Username">
+              <input type="text" class="form-control" id="adminusername" placeholder="Username">
               <label for="floatingInputGroup1">Username</label>
             </div>
           </div>
           <div class="input-group mb-3">
             <span class="input-group-text">&#128273;</span>
             <div class="form-floating">
-              <input type="text" class="form-control" id="floatingInputGroup1" placeholder="Username">
+              <input type="text" class="form-control" id="adminpassword" placeholder="Username">
               <label for="floatingInputGroup1">Password</label>
             </div>
           </div>
-          <button>LOG IN</button>
+          <button type="submit" onClick="admin_login()">LOG IN</button>
         </form>
       </div>
     </center>

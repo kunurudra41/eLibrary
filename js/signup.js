@@ -32,6 +32,9 @@ function create_account(){
     }  
     else{  
     alert("Your account has been created successfully... Redirecting to Homepage");  
-    window.location="index.html";  
+//     window.location="index.html";  
+console.log(n);
+    console.log(e);
+    console.log(cp);
     }  
     }  

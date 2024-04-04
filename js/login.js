@@ -1,8 +1,7 @@
 // to switch between admin to user tab
-
 document.getElementById("defaultOpen").click();
 
-function openCity(evt, cityName) {
+function openCity(evt, client) {
     // Declare all variables
     var i, tabcontent, tablinks;
   
@@ -19,6 +18,22 @@ function openCity(evt, cityName) {
     }
   
     // Show the current tab, and add an "active" class to the button that opened the tab
-    document.getElementById(cityName).style.display = "block";
+    document.getElementById(client).style.display = "block";
     evt.currentTarget.className += " active";
+  }
+
+
+
+  //admin login data
+  function admin_login(){
+    var id=document.getElementById("admincode").value;  
+    var username=document.getElementById("adminusername").value;  
+    var password=document.getElementById("adminpassword").value; 
+    if(id==''||username==''||password==''){  
+      alert("Enter each details correctly");  
+      } 
+    console.log(id);
+    console.log(username);
+    console.log(password);
+    window.location="index.html";
   }
