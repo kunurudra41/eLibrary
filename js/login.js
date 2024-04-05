@@ -21,19 +21,3 @@ function openCity(evt, client) {
     document.getElementById(client).style.display = "block";
     evt.currentTarget.className += " active";
   }
-
-
-
-  //admin login data
-  function admin_login(){
-    var id=document.getElementById("admincode").value;  
-    var username=document.getElementById("adminusername").value;  
-    var password=document.getElementById("adminpassword").value; 
-    if(id==''||username==''||password==''){  
-      alert("Enter each details correctly");  
-      } 
-    console.log(id);
-    console.log(username);
-    console.log(password);
-    window.location="index.html";
-  }

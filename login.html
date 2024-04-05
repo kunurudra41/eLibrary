@@ -14,8 +14,8 @@
 <body>
   <center>
   <div class="tab">
-    <button class="tablinks" onclick="openCity(event, 'user')" id="defaultOpen">USER</button>
-    <button class="tablinks" onclick="openCity(event, 'admin')">ADMIN</button>
+    <button type="button" class="tablinks" onclick="openCity(event, 'user')" id="defaultOpen">USER</button>
+    <button type="button" class="tablinks" onclick="openCity(event, 'admin')">ADMIN</button>
   </div>
 </center>
   
@@ -43,7 +43,7 @@
             Don't have an account ?<a href="CreateAccount.html"><b> Join
                 Now..</b></a>
           </p>
-          <button type="submit" onClick="user_login()">SIGN IN</button>
+          <button type="button" onClick="user_login()">SIGN IN</button>
         </form>
       </div>
     </center>
@@ -72,7 +72,7 @@
               <label for="floatingInputGroup1">Password</label>
             </div>
           </div>
-          <button type="submit" onClick="admin_login()">LOG IN</button>
+          <button type="button" onclick="window.location.href='/demo/table.php';">LOG IN</button>
         </form>
       </div>
     </center>

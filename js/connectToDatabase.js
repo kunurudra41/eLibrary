@@ -59,9 +59,16 @@ con.connect(function (err) {
 // });
 
 
-  sql = 'SELECT * FROM Adminlogin';
-  con.query(sql, (err, result) => {
-    if (err) throw err;
-    console.log(result); // Display the result (array of records)
-    con.end(); // Close the connection
-  });
+  // sql = 'SELECT * FROM Adminlogin';
+  // con.query(sql, (err, result) => {
+  //   if (err) throw err;
+  //   console.log(result); // Display the result (array of records)
+  //   con.end(); // Close the connection
+  // });
+
+  //   const sql = 'DROP TABLE Adminlogin';
+  // con.query(sql, (err, result) => {
+  //   if (err) throw err;
+  //   console.log('Table "Adminlogin" deleted successfully!');
+  //   con.end(); // Close the connection
+  // });
