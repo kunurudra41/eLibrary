@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+body{
+    font-family: Poppins, sans-serif;
+    background-image: url('https://wallpapercave.com/wp/wp2763910.gif');
+    /* https://i.pinimg.com/originals/9c/98/22/9c9822a872aadcc57e2dfb3be7866780.gif */
+    background-size: cover;
+    backdrop-filter: blur(5px);
+    animation: fadein 3s;
+}
+  @keyframes fadein {
+    0% {
+      opacity: 0;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+  }
+.main-body{
+    margin-top: 2%;
+}
+.profile{
+    position: sticky;
+    display: inline-block;
+    width: 250px;
+    padding: 3%;
+    margin: 0 2% 0 2%;
+    background-color: rgba(255, 255, 255, 0.132);
+    backdrop-filter: blur(7px);
+    border-radius: 25px;
+}
+.profilepic{
+    border-radius: 50%;
+    aspect-ratio: 2/2;
+    object-fit: cover;
+    object-position: center;
+    width: 50%;
+}
+.username{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top:-2%;
+    font-size: 6vmin;
+}
+.option{
+    margin-top: 15vw;
+}
+.option > a{
+    opacity: .8;
+    font-size: 3vmin;
+    margin-top: 5%;
+    display: block;
+    text-decoration: none;
+    color: white;
+    transition: .3s;
+}
+.option > a:hover{
+    opacity: .5;
+    transition: .5s;
+transform: scale(102%);
+}
+.userbody{
+    display: inline-block;
+    width: 66vw;
+    backdrop-filter: blur(10px);
+    height: 79vh;
+    overflow-y: scroll;
+    margin: 1%;
+    border-radius: 25px;
+}
+header{
+    position: sticky;
+    padding-top: 5%;
+    width: 100%;
+    font-size: 9vmin;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 5%;
+    color: white;
+}
+.cards, .cards1{
+    display: inline-block;
+    width: 24vmax;
+    min-width: 180px;
+    height: 23vmin;
+    border-radius: 30px 30px 30px 30px;
+  margin: 1% 1% 1% 1%;
+  transition: .5s;
+  color: rgba(255, 255, 255, 0.734);
+
+}
+.cards:hover, .cards1:hover{
+    transform:scale(102%);
+    transition: .5s;
+      box-shadow: 3px 4px 5px #000000;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.047),rgba(25, 25, 25, 0.375));
+      color: white;
+}
+.card-top{
+    font-weight: 600;
+    font-size: 4.5vmin;
+    text-align: left;
+    padding-left: 7%;
+}
+.card-body{
+    color: white;
+    opacity: .6;
+    margin-top: -6%;
+    font-size: 2.3vmin;
+    text-align: left;
+    padding-left: 7%;
+}
+.expand, .expand1{
+    display: none;
+    color: rgb(255, 255, 255);
+    width: 25vw;
+    background-color: rgba(255, 255, 255, 0.122);
+    font-weight: bold;
+    font-size: 2vmin;
+    padding: 2%;
+    border-radius: 15px;
+    text-align: center;
+    overflow-y: scroll;
+}
+.expand1{
+    text-align: left;
+}
+.entry{
+    width: 200px;
+    height: 40px;
+    border-radius: 15px;
+    border: white solid 1px;
+}
+.sub{
+    padding:5px;
+    width: 80px;
+    height: 40px;
+    color: white;
+    background-color: rgb(57, 153, 255);
+    border-radius: 15px;
+}
+.notification{
+position: absolute;
+text-align: center;
+z-index: 1;
+padding: 1%;
+background-color: rgb(255, 255, 255);
+color: black;
+display: block;
+visibility: visible;
+border-radius: 20px;
+margin-left: 45vw;
+    /* Other styles as needed */
+    animation: hideNotification 8s forwards;
+}
+@keyframes hideNotification {
+    to {
+        visibility: hidden;
+        opacity: 0;
+    }
+}
+
+.readlater{
+    text-decoration: none;
+    color: white;
+}
