@@ -11,6 +11,10 @@ Currently Available on [**https://elib.rf.gd**](https://elib.rf.gd)
 
 </div>
 
+> # *MAY 2024 RELEASE !
+>- **Download & read later:** Users can now explore the library through their personal user page after logging in. They also have the option to select books to read later or download them directly to their device.
+>- **Request status:** The requested book list and the status of each request can be viewed on user page.
+>- **Contact us:** If you encounter any issues, you can reach out directly to our support team.
 
 ## **Table of Content**
 - [Overview](#Overview)
