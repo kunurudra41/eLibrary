@@ -23,15 +23,13 @@ The purpose of the E-Library website is to serve as a digital hub for readers an
 
 The site aims to blend literature and information in the digital era, providing a gateway to expand horizons with every click. It’s a collaborative creation by students from the ITM department at Ravenshaw University, fostering a love for reading and learning.
 
-<div style="display:flex; justify-content:space-around;">
-     <div style="display:grid;  color:black; background-color:violet; width:25%; gap:20px; justify-content:center; font-size:2vmax;"> 
-         <b>UI/ UX DESIGN</b>
-         <b>FRONT END</b>
-         <b>BACK END</b>
-         <b>DATABASE <br>IMPLEMENTATION</b>
-     </div>
-     <div>
-     <h1>Development Process</h1>
-             Our Develop Process involved four stages: UI/UX design, front-end development, back-end development, and database implementation. It all started with creating the overall structural design of the website ensuring an attractive user interface and smooth navigation.<br>Next, Front-end Developers bring that design to life. Back-end Developers handle the website's functionalities. Finally, the database is implemented to interact with realtime users via web services.
-     </div>
-</div>
+## Development Process
+
+```mermaid
+graph LR
+A[UI/UX DESIGN]--> B(FRONT END)--> C(BACK END)--> D(DATABASE IMPLEMENTATION)
+```
+
+Our Develop Process involved four stages: UI/UX design, front-end development, back-end development, and database implementation. It all started with creating the overall structural design of the website ensuring an attractive user interface and smooth navigation.<br>
+Next, Front-end Developers bring that design to life. Back-end Developers handle the website's functionalities. Finally, the database is implemented to interact with realtime users via web services.
+
