@@ -4,7 +4,7 @@
 
 <div align="center"> 
 
-<img src="markdown/elibray.png" alt="book" width=40%>
+<img src="markdown/elibray.png" alt="book" width=50%>
 
 # **eLibrary - A digital space among readers** 
 Currently Available on [**https://elib.rf.gd**](https://elib.rf.gd)
@@ -18,13 +18,13 @@ Currently Available on [**https://elib.rf.gd**](https://elib.rf.gd)
 
 ## **Table of Content**
 - [Overview](#Overview)
-- What is the Purpose ?
-- Development Process
-- Dataflow Diagram
-- ER Diagram
-- Control Center ( Administration)
-- Getting Started as a user
-- Future Scopes
+- [What is the Purpose ?](#What-is-the-Purpose-?)
+- [Development Process](#Development-Process)
+- [Dataflow Diagram](Data-Flow-Diagram-(DFD))
+- [ER Diagram](#ER-Diagram)
+- [Control Center ( Administration)](Control-Center (Administrative Panel))
+- [Getting Started as a user](#Getting-Started-as-User)
+- [Future Scopes](#Future-Scope)
 
 ## Overview
 E-Library is a web application which is a digital version of conventional libraries. Unlike conventional libraries, which are bound by physical constraints and operating hours, the E-Library offers unparalleled convenience and flexibility. Users can seamlessly navigate through a vast collection of e-books, articles, research papers, from any location with internet connectivity, at any time of the day. 
