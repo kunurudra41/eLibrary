@@ -1,19 +1,4 @@
-<style>
-    #container{
-        display:flex;
-        justify-content:space-around;
-        align-item:center;
-    }
-    .box{
-        display:flex;
-        align-item:center;
-        padding:2px;
-        font-weight:600;
-        background-color: #8b00d6;
-        padding:1px 8px;
-        border-radius:5px;
-    }
-</style>
+<link rel="stylesheet" href="styles.css">
 
 [![GitHub watchers](https://img.shields.io/github/watchers/nyctophile07/elib.io?style=social&label=Watch&maxAge=2592000)](https://GitHub.com/nyctophile07/elib.io/watchers/)
 [![GitHub forks](https://img.shields.io/github/forks/nyctophile07/elib.io?style=social&label=Fork&maxAge=2592000)](https://GitHub.com/nyctophile07/elib.io/network/)
