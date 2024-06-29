@@ -48,3 +48,16 @@ Next, Front-end Developers bring that design to life. Back-end Developers handle
 <img src="markdown/Picture8.png" alt="DFD" width="100%">
 
 </div>
+
+## ER Diagram
+
+The ER diagram for the eLibrary illustrates the relationships between essential tables, including admin, user, books, bookrequest, and feedback report. These tables are interconnected through specific types of relationships.
+
+```mermaid
+graph LR
+b-->j{Request}-->c(Book Request)-->i{Manage}-->a
+a(Admin) --> f{add / delete} --> e(Books)
+a(Admin) --> g{Terminate / view} -->b
+b(User) --> h{ Search / Download } --> e
+b-->k{Submit}-->d(feedback Report)-->l{View}-->a
+```
