@@ -42,6 +42,9 @@ Next, Front-end Developers bring that design to life. Back-end Developers handle
 
 <img src="markdown/Picture5.png" alt="langs" width="100%">
 
+<div align="center"> 
 
 ## Data Flow Diagram (DFD)
 <img src="markdown/Picture8.png" alt="DFD" width="100%">
+
+</div>
