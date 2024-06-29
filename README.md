@@ -1,7 +1,11 @@
+[![GitHub watchers](https://img.shields.io/github/watchers/microsoft/xr-development-for-beginners.svg?style=social&label=Watch&maxAge=2592000)](https://GitHub.com/microsoft/xr-development-for-beginners/watchers/)
+[![GitHub forks](https://img.shields.io/github/forks/microsoft/xr-development-for-beginners.svg?style=social&label=Fork&maxAge=2592000)](https://GitHub.com/microsoft/xr-development-for-beginners/network/)
+[![GitHub stars](https://img.shields.io/github/stars/nyctophile07/elib.io?style=social&label=Star&maxAge=2592000)](https://GitHub.com/nyctophile07/elib.io/stargazers/)
 
-![](markdown\elibray.png)
+# eLibrary - A digital space among readers
 
 
+Currently Available on [https://elib.rf.gd](https://elib.rf.gd)
 
 
 At the eLibrary, we celebrate the magic of words, the thrill of storytelling, and the boundless knowledge that books offer. Our digital shelves are brimming with literary treasures—classics, contemporary fiction, thought-provoking nonfiction, and everything in between. Whether you’re an avid reader, a curious learner, or a seeker of inspiration, our eLibrary awaits you.
