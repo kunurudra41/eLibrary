@@ -1,10 +1,11 @@
 [![GitHub watchers](https://img.shields.io/github/watchers/nyctophile07/elib.io?style=social&label=Watch&maxAge=2592000)](https://GitHub.com/nyctophile07/elib.io/watchers/)
 [![GitHub forks](https://img.shields.io/github/forks/nyctophile07/elib.io?style=social&label=Fork&maxAge=2592000)](https://GitHub.com/nyctophile07/elib.io/network/)
 [![GitHub stars](https://img.shields.io/github/stars/nyctophile07/elib.io?style=social&label=Star&maxAge=2592000)](https://GitHub.com/nyctophile07/elib.io/stargazers/)
+[![Java]()]
 
 <div align="center"> 
 
-<img src="https://cdn-icons-png.freepik.com/512/10089/10089764.png" alt="book" width=40%>
+<img src="https://cdn-icons-png.freepik.com/512/10089/10089764.png" alt="book" width=20%>
 
 # **eLibrary - A digital space among readers**
 Currently Available on [https://elib.rf.gd](https://elib.rf.gd)
