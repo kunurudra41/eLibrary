@@ -40,6 +40,6 @@ A[UI/UX DESIGN]--> B(FRONT END)--> C(BACK END)--> D(DATABASE IMPLEMENTATION)
 Our Develop Process involved four stages: UI/UX design, front-end development, back-end development, and database implementation. It all started with creating the overall structural design of the website ensuring an attractive user interface and smooth navigation.<br>
 Next, Front-end Developers bring that design to life. Back-end Developers handle the website's functionalities. Finally, the database is implemented to interact with realtime users via web services.
 
-<img src="markdown/picture5.jpg" alt="langs">
+<img src="markdown/Picture5.png" alt="langs" width="100%">
 
 
