@@ -4,7 +4,7 @@
 
 <div align="center"> 
 
-<img src="markdown/elibray.png" alt="book" width=30%>
+<img src="markdown/elibray.png" alt="book" width=40%>
 
 # **eLibrary - A digital space among readers** 
 Currently Available on [https://elib.rf.gd](https://elib.rf.gd)
@@ -43,3 +43,5 @@ Next, Front-end Developers bring that design to life. Back-end Developers handle
 <img src="markdown/Picture5.png" alt="langs" width="100%">
 
 
+## Data Flow Diagram (DFD)
+<img src="markdown/Picture8.png" alt="DFD">
