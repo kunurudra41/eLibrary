@@ -70,13 +70,15 @@ b-->k{Submit}-->d(feedback Report)-->l{View}-->a
 - **User Feedback:** Considering feedback from users to improve the library’s services, such as expanding the book collection and enhancing visual appeal.
 
 ```mermaid
+
 graph LR
 a(Admin) --> b{Log In} --> c(Admin Panel)
 c-->d((Add / Delete Books))
 c-->e((Terminate / View User))
 c-->f((View Feedback))
 c-->g((Manage Request / Submissions))
-...
+
+```
 
 <div align="center"> 
 
