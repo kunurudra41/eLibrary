@@ -102,3 +102,5 @@ d--> g((View Read Later))
 d--> h((report))
 d--> i((Request))
 ```
+## Future Scope
+<img src="markdown/Picture10.png" alt="DFD" width="100%">
