@@ -83,7 +83,7 @@ c-->g((Manage Request / Submissions))
 <div align="center"> 
 
 ## Getting Started as User
-<img src="markdown/Picture8.png" alt="DFD" width="100%">
+<img src="markdown/Picture9.png" alt="DFD" width="100%">
 
 </div>
 
