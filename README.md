@@ -71,7 +71,7 @@ b-->k{Submit}-->d(feedback Report)-->l{View}-->a
 
 ```mermaid
 
-graph LR
+graph TB
 a(Admin) --> b{Log In} --> c(Admin Panel)
 c-->d((Add / Delete Books))
 c-->e((Terminate / View User))
