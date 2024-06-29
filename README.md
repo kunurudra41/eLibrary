@@ -91,3 +91,14 @@ c-->g((Manage Request / Submissions))
 
 </div>
 
+```mermaid
+
+graph LR
+a(User) --> b((Create Account)) -->c((Log in ))-->d(User Dashboard)
+a-->c
+d --> e((Submission))
+d--> f((Explore))
+d--> g((View Read Later))
+d--> h((report))
+d--> i((Request))
+```
