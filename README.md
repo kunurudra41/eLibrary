@@ -7,7 +7,7 @@
 <img src="markdown/elibray.png" alt="book" width=40%>
 
 # **eLibrary - A digital space among readers** 
-Currently Available on [https://elib.rf.gd](https://elib.rf.gd)
+Currently Available on [**https://elib.rf.gd**](https://elib.rf.gd)
 
 </div>
 
@@ -69,5 +69,19 @@ b-->k{Submit}-->d(feedback Report)-->l{View}-->a
 - **Information Accuracy:** Ensuring that the information provided for book additions is accurate to prevent future inconvenience.
 - **User Feedback:** Considering feedback from users to improve the library’s services, such as expanding the book collection and enhancing visual appeal.
 
+```mermaid
+graph LR
+a(Admin) --> b{Log In} --> c(Admin Panel)
+c-->d((Add / Delete Books))
+c-->e((Terminate / View User))
+c-->f((View Feedback))
+c-->g((Manage Request / Submissions))
+...
 
+<div align="center"> 
+
+## Getting Started as User
+<img src="markdown/Picture8.png" alt="DFD" width="100%">
+
+</div>
 
