@@ -47,7 +47,6 @@ Next, Front-end Developers bring that design to life. Back-end Developers handle
 <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="book" width=8%> 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png" alt="book" width=10%> 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Webysther_20160423_-_Elephpant.svg/200px-Webysther_20160423_-_Elephpant.svg.png" alt="book" width=15%> 
-<img src="https://upload.wikimedia.org/wikipedia/fr/6/62/MySQL.svg
-" alt="book" width=15%> 
+<img src="https://upload.wikimedia.org/wikipedia/fr/6/62/MySQL.svg" alt="book" width=15%> 
 
 
