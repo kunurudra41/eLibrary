@@ -2,11 +2,11 @@
 [![GitHub forks](https://img.shields.io/github/forks/nyctophile07/elib.io?style=social&label=Fork&maxAge=2592000)](https://GitHub.com/nyctophile07/elib.io/network/)
 [![GitHub stars](https://img.shields.io/github/stars/nyctophile07/elib.io?style=social&label=Star&maxAge=2592000)](https://GitHub.com/nyctophile07/elib.io/stargazers/)
 
-<center> 
+<div style="display:flex; justify-content:center;"> 
 
 ![logo](https://cdn-icons-png.freepik.com/512/10089/10089764.png) 
 
-</center>
+</div>
 
 # **eLibrary - A digital space among readers**
 Currently Available on [https://elib.rf.gd](https://elib.rf.gd)
