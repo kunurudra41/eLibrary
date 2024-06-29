@@ -4,7 +4,7 @@
 
 <center> 
 
-![logo](https://www.pngitem.com/pimgs/m/372-3722143_book-logo-blue-hd-png-download.png) 
+![logo](https://cdn-icons-png.freepik.com/512/10089/10089764.png) 
 
 </center>
 
