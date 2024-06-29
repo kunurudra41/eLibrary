@@ -25,7 +25,7 @@ The site aims to blend literature and information in the digital era, providing 
 
 ## Development Process
 
-```mermaid
+```
 graph LR
 A[UI/UX DESIGN]--> B(FRONT END)--> C(BACK END)--> D(DATABASE IMPLEMENTATION)
 ```
