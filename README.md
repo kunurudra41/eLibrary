@@ -1,8 +1,9 @@
 [![GitHub watchers](https://img.shields.io/github/watchers/nyctophile07/elib.io?style=social&label=Watch&maxAge=2592000)](https://GitHub.com/nyctophile07/elib.io/watchers/)
 [![GitHub forks](https://img.shields.io/github/forks/nyctophile07/elib.io?style=social&label=Fork&maxAge=2592000)](https://GitHub.com/nyctophile07/elib.io/network/)
 [![GitHub stars](https://img.shields.io/github/stars/nyctophile07/elib.io?style=social&label=Star&maxAge=2592000)](https://GitHub.com/nyctophile07/elib.io/stargazers/)
-[![Java]()]
-
+<style>img{
+    margin:6px;
+    }</style>
 <div align="center"> 
 
 <img src="https://cdn-icons-png.freepik.com/512/10089/10089764.png" alt="book" width=20%>
@@ -40,4 +41,13 @@ A[UI/UX DESIGN]--> B(FRONT END)--> C(BACK END)--> D(DATABASE IMPLEMENTATION)
 
 Our Develop Process involved four stages: UI/UX design, front-end development, back-end development, and database implementation. It all started with creating the overall structural design of the website ensuring an attractive user interface and smooth navigation.<br>
 Next, Front-end Developers bring that design to life. Back-end Developers handle the website's functionalities. Finally, the database is implemented to interact with realtime users via web services.
+
+### Technologies Used: 
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png" alt="book" width=11%>
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="book" width=8%> 
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png" alt="book" width=10%> 
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Webysther_20160423_-_Elephpant.svg/200px-Webysther_20160423_-_Elephpant.svg.png" alt="book" width=15%> 
+<img src="https://upload.wikimedia.org/wikipedia/fr/6/62/MySQL.svg
+" alt="book" width=15%> 
+
 
