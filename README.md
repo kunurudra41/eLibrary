@@ -61,3 +61,13 @@ a(Admin) --> g{Terminate / view} -->b
 b(User) --> h{ Search / Download } --> e
 b-->k{Submit}-->d(feedback Report)-->l{View}-->a
 ```
+
+## Control Center (Administrative Panel)
+
+- **Book Management:** Administrators can add books to the library based on user requests or to expand the collection.
+- **Request Review:** They are responsible for reviewing and managing request / submissions from readers.
+- **Information Accuracy:** Ensuring that the information provided for book additions is accurate to prevent future inconvenience.
+- **User Feedback:** Considering feedback from users to improve the library’s services, such as expanding the book collection and enhancing visual appeal.
+
+
+
