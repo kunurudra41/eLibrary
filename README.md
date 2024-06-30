@@ -18,13 +18,13 @@ Currently Available on [**https://elib.rf.gd**](https://elib.rf.gd)
 
 ## **Table of Content**
 - [Overview](#Overview)
-- [What is the Purpose ?](#What-is-the-Purpose-?)
-- [Development Process](#Development-Process)
-- [Dataflow Diagram](Data-Flow-Diagram-(DFD))
+- [What is the Purpose ?](#what-is-the-purpose-)
+- [Development Process](#development-process)
+- [Dataflow Diagram](#data-flow-diagram-dfd)
 - [ER Diagram](#ER-Diagram)
-- [Control Center ( Administration)](Control-Center (Administrative Panel))
-- [Getting Started as a user](#Getting-Started-as-User)
-- [Future Scopes](#Future-Scope)
+- [Control Center ( Administration)](#control-center-administrative-panel)
+- [Getting Started as a user](#getting-started-as-user)
+- [Future Scopes](#future-scope)
 
 ## Overview
 E-Library is a web application which is a digital version of conventional libraries. Unlike conventional libraries, which are bound by physical constraints and operating hours, the E-Library offers unparalleled convenience and flexibility. Users can seamlessly navigate through a vast collection of e-books, articles, research papers, from any location with internet connectivity, at any time of the day. 
