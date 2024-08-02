@@ -1,0 +1,391 @@
+.divbar {
+    overflow: hidden;
+    background-color: rgb(47, 47, 47);
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0;
+  z-index:3;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.divbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 9px 20px;
+}
+
+.div-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.div-links li {
+    margin-left: 20px;
+}
+
+.div-links a, .divitem{
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    display: block;
+    cursor:pointer;
+        opacity:0.7;
+}
+
+.div-links a:hover, .divitem:hover{
+    opacity:1;
+}
+
+.menu-icon {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.menu-icon .bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px 0;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .div-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #333;
+        position: fixed;
+        top: 50px;
+        left: 0;
+        padding-bottom: 10px;
+    }
+
+    .div-links.show {
+        display: flex;
+    }
+
+    .div-links li {
+        margin: 0;
+    }
+
+    .menu-icon {
+        display: flex;
+    }
+}
+.container {
+  display: inline-block;
+  padding-top: 5px;
+}
+
+.typewriter {
+  font-size: 16vmin;
+  width: 75vmin;
+  overflow: hidden;
+  /* Ensures the content is not revealed until the animation */
+  border-right: .1em solid orange;
+  /* The typwriter cursor */
+  white-space: nowrap;
+  /* Keeps the content on a single line */
+  margin: 0 auto;
+  /* Gives that scrolling effect as the typing happens */
+  animation:
+    typing 1.5s steps(9),
+    blink-caret .8s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  50% {
+    border-color: transparent
+  }
+}
+
+#searchbox {
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+
+#searchbox input {
+  width: 63%;
+  height: 50px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: rgb(244, 244, 244);
+  border-radius: 30px 30px 30px 30px;
+}
+
+#searchbox button {
+  height: 50px;
+  border-radius: 30px 30px 30px 30px;
+}
+
+.ebooks {
+  display: inline-block;
+  margin: 2% 3% 2% 3%;
+  width: 25vmin;
+  height: 10%;
+  text-align: center;
+  font-size: 70%;
+  transition: .5s;
+}
+
+.ebooks:hover {
+opacity: 0.8;
+transform: scale(102%);
+transition: .5s;
+}
+
+#bookssuggestion {
+  padding: 0 10% 5% 10%;
+}
+
+.bookthumbnail {
+  aspect-ratio: 5/8;
+  object-fit: cover;
+  object-position: center;
+}
+
+.fadein {
+  animation: fadein 2s;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+/* for cards */
+.floating {
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+
+  50% {
+    transform: translate(0, 12px);
+  }
+
+  100% {
+    transform: translate(0, -0px);
+  }
+}
+
+.cards {
+  width: 45vmin;
+  height: 40vmin;
+  background-color: white;
+  font-size: 2.5vmin;
+  display: inline-block;
+  margin: 3% 3% 4% 3%;
+  border-radius: 50px 50px 50px 50px;
+  border-style: hidden;
+  border-width: 2px;
+  box-shadow: 2px 6px 3px black;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.cardbody {
+  padding: 11% 11% 11% 11%;
+}
+
+p.cardtext {
+  margin-top: 5%;
+  margin-bottom: 10%;
+  width: 100%;
+}
+
+.cards:hover {
+  transition: 0.3s;
+  transform: scale(103%);
+  box-shadow: 5px 6px 6px black;
+}
+
+.cardbotton {
+  padding: 4% 7% 5% 7%;
+  border-radius: 50px 50px 50px 50px;
+  text-decoration: none;
+    background-image: linear-gradient(to right, #103ce7, #3cdffa);
+}
+
+.card-imgtop {
+  width: 10vmin;
+  height: 10vmin;
+  aspect-ratio: 2/2;
+  object-fit: cover;
+  object-position: center;
+}
+
+.cardbotton:hover {
+  opacity: 0.8;
+}
+
+/* faq */
+#faq {
+  background-color:white;
+  padding: 4vh 1% 1% 1%;
+  margin: 4% 7% 5% 7%;
+  border-radius:15px
+}
+#faq > h4{
+    margin-left: 2vh;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 2vh;
+    font-size: 4.5vmin;
+}
+.accordion-button{
+  font-size:3vmin;
+}
+.accordion-body{
+  font-size:2.4vmin;
+  color:#858585
+}
+
+
+/* footer */
+footer {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.aboutus {
+  text-align: left;
+  display: inline-block;
+  font-size: 2.4vmin;
+  margin-top: 3%;
+}
+
+.endline {
+  text-align: left;
+  font-size: 1.8vmin;
+  padding-top: 1%;
+  width: 85%
+}
+.navitem,
+.ed {
+  float: right;
+  margin-left: 4%;
+  color: white;
+  opacity: 0.7;
+  text-decoration: none;
+}
+
+.navitem:hover {
+  opacity: 0.5;
+}
+
+ #myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap other elements */
+  border: none; /* Remove borders */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  background-color: rgba(255, 255, 255, 0.619);
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+.top{
+  aspect-ratio: 2/2;
+  width: 25px;
+}
+
+.logo{
+aspect-ratio:2/2;
+  object-fit:cover;
+  object-position:center;
+  width:35px;
+}
+
+/* Hide the overlay and popup initially */
+.hidden {
+    display: none;
+}
+
+/* Style the overlay (blurred background) */
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+    backdrop-filter: blur(5px); /* Apply the blur effect */
+    z-index: 4;
+}
+
+/* Style the popup */
+#popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 1vw 10px 4vw;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    z-index: 5;
+     height: 75vh;
+    width:85vw;
+    overflow-y:scroll;
+    background-color:white;
+}
+#closePopup{
+  font-size:30px;
+  float:right;
+  cursor: pointer;
+}
+#updates > i {
+  margin:2% 0 -1% 2%;
+  display:block;
+  font-size:20px;
+}
+#updates > h1{
+    font-weight: bolder;
+    display: inline;
+}
+#updates > ul{
+  opacity:0.7;
+}
+#updateimage{
+  aspect-ratio:16/9;
+  width:95%;
+  height:30vh;
+  border-radius:15px;
+  object-fit:cover;
+  object-position:center;
+}
+#announce{
+  aspect-ratio:2/2;
+  object-fit:cover;
+  object-position:center;
+  width:10vmin;
+  margin-bottom:2vh;
+}
